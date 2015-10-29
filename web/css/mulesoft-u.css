@@ -161,7 +161,7 @@ a:hover {
    height: 100px;
    width: 300px;
    font-size: 15px;
-   border-style: solid;
+   border-style: none;
    border-color: #e0e0e0;
    border-width: 1;
    border-collapse: collapse;
@@ -169,4 +169,10 @@ a:hover {
    background-color: #f1f1f1;
    box-shadow: 5px 5px 5px #888888;
    margin: 0 auto;
+}
+
+.nylas-gradient-bg {
+  background-image: -webkit-radial-gradient(center 33%, circle cover, rgba(236,236,236,1) 40%, rgba(236,236,236,0) 100%), linear-gradient(to right, rgba(213,224,0,0.47) 0%,rgba(88,182,63,0.47) 50%,rgba(12,162,163,0.47) 100%);
+  background-size: cover;
+  color: white;
 }
