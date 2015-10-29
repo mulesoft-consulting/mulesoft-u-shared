@@ -16,7 +16,6 @@ table {
    font-family: 'Ubuntu';
    font-size: 13;
    color: #65646a;
-   background-color: #FFFFFF;
 }
 
 tr.divider_grey {
@@ -170,6 +169,10 @@ a:hover {
    background-color: #f1f1f1;
    box-shadow: 5px 5px 5px #888888;
    margin: 0 auto;
+}
+
+.white-bg {
+   background-color: #FFFFFF;
 }
 
 body.nylas-gradient-bg {
