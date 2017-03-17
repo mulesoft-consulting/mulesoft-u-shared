@@ -9,13 +9,17 @@ html {
    box-sizing: border-box;
    text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
-   color: #65646a
+   color: #000
+}
+
+hr {
+   border-color: #77BC1F;
 }
 
 table {
    font-family: 'Ubuntu';
    font-size: 13;
-   color: #65646a;
+   color: #000;
 }
 
 tr.divider_grey {
@@ -24,7 +28,6 @@ tr.divider_grey {
 }
 
 tr.divider_white {
-   //background-color: #fff;
    height: 20px
 }
 
@@ -36,9 +39,7 @@ tr.divider_line {
 }
 
 tr.divider_dotted {
-   background:
-      url(http://training.mulesoft.com/css/theme/images/dot-blue.png)
-      repeat-x bottom;
+   background: url(http://training.mulesoft.com/css/theme/images/dot-blue.png) repeat-x bottom;
    border: none
 }
 
@@ -63,7 +64,7 @@ td.footer {
    align: right;
    border-top-style: solid;
    border-top-width: 1px;
-   border-top-color: #ddd;
+   border-top-color: #77BC1F;
    padding: 10px
 }
 
@@ -83,6 +84,11 @@ a:hover {
    color: #34c1fd
 }
 
+.title-bar-logo {
+   padding-right: 10px;
+   height: 35px;
+}
+
 
 #title-bar {
    background-color: #323031;
@@ -90,11 +96,13 @@ a:hover {
    font-size: 1.5em;
    font-weight: 300;
    padding: .5em 0;
-   color: #fff
+   color: #fff;
+   padding-left: 30;
 }
 
 #sub-title-bar {
-   background-color: #f2f2f2;
+   //background-color: #f2f2f2;
+   background-color: #fff;
    font-family: Ubuntu;
    font-size: 1em;
    font-weight: 300;
@@ -102,8 +110,9 @@ a:hover {
    color: #414042;
    border-bottom: solid;
    border-bottom-width: 1px;
-   border-bottom-color: #e0e0e0;
-   margin-bottom: 0
+   border-bottom-color: #77BC1F;
+   margin-bottom: 0;
+   padding-left: 20;
 }
 
 .contentHeading {
@@ -149,6 +158,7 @@ a:hover {
 }
 
 .thead {
+   color: #ffffff;
    background-color: #337ab7;
    border-style: solid;
    border-width: 1;
@@ -158,7 +168,7 @@ a:hover {
 .thead_item {
    font-size: 13px;
    font-family: Ubuntu;
-   color: #FFFFFF; 
+   color: #FFFFFF;
 }
 
 .ph {
@@ -166,12 +176,10 @@ a:hover {
    width: 300px;
    font-size: 15px;
    border-style: none;
-   border-color: #e0e0e0;
-   border-width: 1;
    border-collapse: collapse;
    text-align: center;
-   background-color: #f1f1f1;
-   box-shadow: 5px 5px 5px #888888;
+   background-color: #ffffff;
+   box-shadow: 15px 15px 15px #888888;
    margin: 0 auto;
 }
 
@@ -179,8 +187,7 @@ a:hover {
    background-color: #FFFFFF;
 }
 
-body.nylas-gradient-bg {
-  background-image: -webkit-radial-gradient(center 33%, circle cover, rgba(236,236,236,1) 40%, rgba(236,236,236,0) 100%), linear-gradient(to right, rgba(213,224,0,0.47) 0%,rgba(88,182,63,0.47) 50%,rgba(12,162,163,0.47) 100%);
-  background-size: cover;
-  color: #000000;
+.grey-bg {
+   //background-color: #ECECEC;
+   background-color: #f2f2f2;
 }
